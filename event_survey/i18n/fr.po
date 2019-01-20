@@ -1,0 +1,130 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* event_survey
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-17 08:24+0000\n"
+"PO-Revision-Date: 2019-01-17 08:24+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: event_survey
+#: code:addons/event_survey/wizard/event_survey_wizard.py:33
+#, python-format
+msgid "<div class=\"o_mail_notification\">Created from template <a href=\"#\"  data-oe-model=survey.survey class=\"o_channel_redirect\" data-oe-id=\"%s\">%s</a></div>"
+msgstr "<div class=\"o_mail_notification\">Created from template <a href=\"#\"  data-oe-model=survey.survey class=\"o_channel_redirect\" data-oe-id=\"%s\">%s</a></div>"
+
+#. module: event_survey
+#: model:ir.ui.view,arch_db:event_survey.view_event_form
+msgid "<span>\n"
+"                                Create Survey\n"
+"                            </span>"
+msgstr "<span>\n"
+"                                Créer un questionnaire\n"
+"                            </span>"
+
+#. module: event_survey
+#: model:ir.ui.view,arch_db:event_survey.view_event_form
+msgid "<span>\n"
+"                                Survey\n"
+"                            </span>"
+msgstr "<span>\n"
+"                            Questionnaire\n"
+"                        </span>"
+
+#. module: event_survey
+#: model:ir.ui.view,arch_db:event_survey.event_survey_generate_view
+msgid "Cancel"
+msgstr "Annuler"
+
+#. module: event_survey
+#: model:ir.ui.view,arch_db:event_survey.event_survey_generate_view
+msgid "Create Survay"
+msgstr "Create Survay"
+
+#. module: event_survey
+#: model:ir.model.fields,field_description:event_survey.field_wizard_event_survey_create_uid
+msgid "Created by"
+msgstr "Créé par"
+
+#. module: event_survey
+#: model:ir.model.fields,field_description:event_survey.field_wizard_event_survey_create_date
+msgid "Created on"
+msgstr "Créé le"
+
+#. module: event_survey
+#: model:ir.model.fields,field_description:event_survey.field_wizard_event_survey_display_name
+msgid "Display Name"
+msgstr "Nom à afficher"
+
+#. module: event_survey
+#: model:ir.model,name:event_survey.model_event_event
+msgid "Event"
+msgstr "Évènement"
+
+#. module: event_survey
+#: model:ir.actions.act_window,name:event_survey.event_survey_generate_action
+msgid "Geneate survey"
+msgstr "Geneate survey"
+
+#. module: event_survey
+#: model:ir.ui.view,arch_db:event_survey.event_survey_generate_view
+msgid "Generate Survey"
+msgstr "Generate Survey"
+
+#. module: event_survey
+#: model:ir.model.fields,field_description:event_survey.field_wizard_event_survey_id
+msgid "ID"
+msgstr "ID"
+
+#. module: event_survey
+#: model:ir.model.fields,field_description:event_survey.field_wizard_event_survey___last_update
+msgid "Last Modified on"
+msgstr "Dernière modification le"
+
+#. module: event_survey
+#: model:ir.model.fields,field_description:event_survey.field_wizard_event_survey_write_uid
+msgid "Last Updated by"
+msgstr "Dernière mise à jour par"
+
+#. module: event_survey
+#: model:ir.model.fields,field_description:event_survey.field_wizard_event_survey_write_date
+msgid "Last Updated on"
+msgstr "Dernière mise à jour le"
+
+#. module: event_survey
+#: model:ir.model,name:event_survey.model_survey_survey
+msgid "Survey"
+msgstr "Sondage"
+
+#. module: event_survey
+#: model:ir.model.fields,field_description:event_survey.field_wizard_event_survey_survey_template
+msgid "Survey Template"
+msgstr "Survey Template"
+
+#. module: event_survey
+#: model:ir.model.fields,field_description:event_survey.field_wizard_event_survey_survey_title
+msgid "Survey name"
+msgstr "Nom de l'enquête"
+
+#. module: event_survey
+#: model:ir.model.fields,field_description:event_survey.field_survey_survey_is_template
+msgid "Survey template"
+msgstr "Modèle d'enquête"
+
+#. module: event_survey
+#: model:ir.ui.view,arch_db:event_survey.event_survey_generate_view
+msgid "Template of survey"
+msgstr "Modèle d'enquête"
+
+#. module: event_survey
+#: model:ir.model,name:event_survey.model_wizard_event_survey
+msgid "wizard.event.survey"
+msgstr "wizard.event.survey"

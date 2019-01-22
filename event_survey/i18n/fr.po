@@ -16,12 +16,6 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: event_survey
-#: code:addons/event_survey/wizard/event_survey_wizard.py:33
-#, python-format
-msgid "<div class=\"o_mail_notification\">Created from template <a href=\"#\"  data-oe-model=survey.survey class=\"o_channel_redirect\" data-oe-id=\"%s\">%s</a></div>"
-msgstr "<div class=\"o_mail_notification\">Created from template <a href=\"#\"  data-oe-model=survey.survey class=\"o_channel_redirect\" data-oe-id=\"%s\">%s</a></div>"
-
-#. module: event_survey
 #: model:ir.ui.view,arch_db:event_survey.view_event_form
 msgid "<span>\n"
 "                                Create Survey\n"
@@ -46,21 +40,27 @@ msgstr "Annuler"
 
 #. module: event_survey
 #: model:ir.ui.view,arch_db:event_survey.event_survey_generate_view
-msgid "Create Survay"
-msgstr "Create Survay"
+msgid "Create Survey"
+msgstr "Créer un sondage"
 
 #. module: event_survey
-#: model:ir.model.fields,field_description:event_survey.field_wizard_event_survey_create_uid
+#: model:ir.model.fields,field_description:event_survey.field_event_survey_generator_create_uid
 msgid "Created by"
 msgstr "Créé par"
 
 #. module: event_survey
-#: model:ir.model.fields,field_description:event_survey.field_wizard_event_survey_create_date
+#: code:addons/event_survey/wizard/event_survey_wizard.py:39
+#, python-format
+msgid "Created from template: "
+msgstr "Créé à partir d'un modèle: "
+
+#. module: event_survey
+#: model:ir.model.fields,field_description:event_survey.field_event_survey_generator_create_date
 msgid "Created on"
 msgstr "Créé le"
 
 #. module: event_survey
-#: model:ir.model.fields,field_description:event_survey.field_wizard_event_survey_display_name
+#: model:ir.model.fields,field_description:event_survey.field_event_survey_generator_display_name
 msgid "Display Name"
 msgstr "Nom à afficher"
 
@@ -72,30 +72,30 @@ msgstr "Évènement"
 #. module: event_survey
 #: model:ir.actions.act_window,name:event_survey.event_survey_generate_action
 msgid "Geneate survey"
-msgstr "Geneate survey"
+msgstr "Générer un sondage"
 
 #. module: event_survey
 #: model:ir.ui.view,arch_db:event_survey.event_survey_generate_view
 msgid "Generate Survey"
-msgstr "Generate Survey"
+msgstr "Générer un sondage"
 
 #. module: event_survey
-#: model:ir.model.fields,field_description:event_survey.field_wizard_event_survey_id
+#: model:ir.model.fields,field_description:event_survey.field_event_survey_generator_id
 msgid "ID"
 msgstr "ID"
 
 #. module: event_survey
-#: model:ir.model.fields,field_description:event_survey.field_wizard_event_survey___last_update
+#: model:ir.model.fields,field_description:event_survey.field_event_survey_generator_last_update
 msgid "Last Modified on"
 msgstr "Dernière modification le"
 
 #. module: event_survey
-#: model:ir.model.fields,field_description:event_survey.field_wizard_event_survey_write_uid
+#: model:ir.model.fields,field_description:event_survey.field_event_survey_generator_write_uid
 msgid "Last Updated by"
 msgstr "Dernière mise à jour par"
 
 #. module: event_survey
-#: model:ir.model.fields,field_description:event_survey.field_wizard_event_survey_write_date
+#: model:ir.model.fields,field_description:event_survey.field_event_survey_generator_write_date
 msgid "Last Updated on"
 msgstr "Dernière mise à jour le"
 
@@ -105,12 +105,12 @@ msgid "Survey"
 msgstr "Sondage"
 
 #. module: event_survey
-#: model:ir.model.fields,field_description:event_survey.field_wizard_event_survey_survey_template
+#: model:ir.model.fields,field_description:event_survey.field_event_survey_generator_survey_template_id
 msgid "Survey Template"
-msgstr "Survey Template"
+msgstr "Modèle d'enquête"
 
 #. module: event_survey
-#: model:ir.model.fields,field_description:event_survey.field_wizard_event_survey_survey_title
+#: model:ir.model.fields,field_description:event_survey.field_event_survey_generator_survey_title
 msgid "Survey name"
 msgstr "Nom de l'enquête"
 
@@ -125,6 +125,6 @@ msgid "Template of survey"
 msgstr "Modèle d'enquête"
 
 #. module: event_survey
-#: model:ir.model,name:event_survey.model_wizard_event_survey
-msgid "wizard.event.survey"
-msgstr "wizard.event.survey"
+#: model:ir.model,name:event_survey.model_event_survey_generator
+msgid "event.survey.generator"
+msgstr "event.survey.generator"

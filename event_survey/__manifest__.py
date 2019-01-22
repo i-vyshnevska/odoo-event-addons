@@ -13,7 +13,7 @@
     ],
     'website': 'https://github.com/camptocamp/odoo-event-addons',
     'data': [
-        'wizard/event_survey_wizard_view.xml',
+        'wizard/event_survey_generator_view.xml',
         'views/event_survey.xml',
         'views/event_event.xml',
 

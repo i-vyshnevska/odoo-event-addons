@@ -2,8 +2,8 @@
 <odoo>
 
   <record id="event_survey_generate_view" model="ir.ui.view">
-    <field name="name">wizard.event.survey.form</field>
-    <field name="model">wizard.event.survey</field>
+    <field name="name">event.survey.generator form</field>
+    <field name="model">event.survey.generator</field>
     <field name="arch" type="xml">
       <form string="Create Survey">
         <group>
@@ -23,7 +23,7 @@
 
   <record id="event_survey_generate_action" model="ir.actions.act_window">
     <field name="name">Geneate survey</field>
-    <field name="res_model">wizard.event.survey</field>
+    <field name="res_model">event.survey.generator</field>
     <field name="src_model">event.event</field>
     <field name="view_mode">form</field>
     <field name="target">new</field>

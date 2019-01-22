@@ -12,7 +12,7 @@ class TestEventSurveyTemplate(SavepointCase):
         cls.env = cls.env(context=dict(cls.env.context, tracking_disable=True))
         cls.event = cls.env.ref('event.event_0')
         cls.survey = cls.env.ref('survey.feedback_form')
-        cls.wiz_model = cls.env['wizard.event.survey']
+        cls.wiz_model = cls.env['event.survey.generator']
 
     def test_creating_survey(self):
 

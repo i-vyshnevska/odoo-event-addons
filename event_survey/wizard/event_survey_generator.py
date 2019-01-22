@@ -3,13 +3,13 @@
 from odoo import fields, models, _
 
 
-class WizardEventSurvey(models.TransientModel):
+class EventSurveyGenerator(models.TransientModel):
 
-    _name = 'wizard.event.survey'
+    _name = 'event.survey.generator'
 
     survey_template_id = fields.Many2one(
         comodel_name='survey.survey',
-        reqired=True,
+        required=True,
         domain=[('is_template', '=', True)]
     )
     survey_title = fields.Char(
